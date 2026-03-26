@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quentin Daza — Communication digitale & Pêche de compétition</title>
+  <meta name="description" content="Portfolio de Quentin Daza, spécialiste en communication digitale pour les marques de pêche de compétition.">
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ========================================
+       NAVIGATION
+       ======================================== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">QD</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#presentation" class="nav-link">Présentation</a></li>
+        <li><a href="#probleme" class="nav-link">Le marché</a></li>
+        <li><a href="#solution" class="nav-link">Ma solution</a></li>
+        <li><a href="#resultats" class="nav-link">Résultats</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#offre" class="nav-link">Offres</a></li>
+        <li><a href="#contact" class="nav-link nav-link--cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========================================
+       SECTION 1 — HERO / COUVERTURE
+       ======================================== -->
+  <section id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag reveal">Communication digitale — Pêche de compétition</p>
+      <h1 class="hero-title reveal">Quentin Daza</h1>
+      <p class="hero-subtitle reveal">
+        J'accompagne les marques de pêche au coup dans le développement de leur image et de leur visibilité grâce à du contenu photo&nbsp;et&nbsp;vidéo&nbsp;impactant.
+      </p>
+      <div class="hero-ctas reveal">
+        <a href="#presentation" class="btn btn-primary">Découvrir mon univers</a>
+        <a href="#contact" class="btn btn-outline">Me contacter</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ========================================
+       SECTION 2 — PRÉSENTATION
+       ======================================== -->
+  <section id="presentation" class="section section--presentation">
+    <div class="container">
+      <div class="presentation-grid">
+        <div class="presentation-image reveal">
+          <!-- Photo Équipe de France -->
+          <img src="assets/equipe_france/7290659f-d478-4f1f-95fa-d7a7ccd1188e.jpg" alt="Quentin Daza — Équipe de France de pêche au coup" loading="lazy">
+        </div>
+        <div class="presentation-text">
+          <span class="section-tag reveal">À propos</span>
+          <h2 class="section-title reveal">
+            L'expertise terrain<br>au service du digital
+          </h2>
+          <p class="reveal">
+            Ancien Social Media Manager chez <strong>Rive</strong> pendant deux ans, j'ai travaillé au quotidien sur la création de contenu et le développement de la visibilité de la marque.
+          </p>
+          <p class="reveal">
+            Pêcheur de compétition depuis plus de <strong>15 ans</strong>, vice-champion du monde U25 par équipe et actuellement membre du staff de l'<strong>Équipe de France U25</strong> pour la deuxième année consécutive, dans le cadre des Championnats du Monde 2025 et 2026, je suis pleinement impliqué dans le milieu de la pêche de compétition.
+          </p>
+          <p class="reveal">
+            Cette double expertise, à la fois terrain et digitale, me permet de comprendre précisément les attentes des marques, des détaillants et des pêcheurs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       SECTION 3 — LE PROBLÈME
+       ======================================== -->
+  <section id="probleme" class="section section--probleme">
+    <div class="container">
+      <span class="section-tag reveal">Le constat</span>
+      <h2 class="section-title reveal">Les marques de pêche aujourd'hui</h2>
+      <p class="section-intro reveal">
+        Dans un marché de plus en plus concurrentiel, la visibilité digitale est devenue essentielle.
+      </p>
+      <p class="section-intro reveal" style="margin-bottom: 3rem;">
+        Pourtant, beaucoup de marques de pêche de compétition :
+      </p>
+
+      <div class="problem-grid">
+        <div class="problem-card reveal">
+          <div class="problem-icon">📷</div>
+          <p>Manquent de contenu régulier</p>
+        </div>
+        <div class="problem-card reveal">
+          <div class="problem-icon">🎬</div>
+          <p>Exploitent peu la vidéo</p>
+        </div>
+        <div class="problem-card reveal">
+          <div class="problem-icon">🏷️</div>
+          <p>Valorisent insuffisamment leurs produits</p>
+        </div>
+        <div class="problem-card reveal">
+          <div class="problem-icon">📱</div>
+          <p>N'utilisent pas pleinement les réseaux sociaux</p>
+        </div>
+      </div>
+
+      <!-- Carrousel produits — illustrer le manque de valorisation -->
+      <div class="carousel-wrapper reveal">
+        <div class="carousel" id="carouselProduits">
+          <div class="carousel-track">
+            <div class="carousel-slide"><img src="assets/produits/A7400055.jpg" alt="Produit pêche 1" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/produits/A7400777.jpg" alt="Produit pêche 2" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/produits/A7400848.jpg" alt="Produit pêche 3" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/produits/A7402012.jpg" alt="Produit pêche 4" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/produits/A7402891.jpg" alt="Produit pêche 5" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/produits/A7404521-2.jpg" alt="Produit pêche 6" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/produits/A7404571.jpg" alt="Produit pêche 7" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/produits/A7404800.jpg" alt="Produit pêche 8" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/produits/A7405891.jpg" alt="Produit pêche 9" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/produits/A7406210.jpg" alt="Produit pêche 10" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/produits/A7406255.jpg" alt="Produit pêche 11" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/produits/A7406263.jpg" alt="Produit pêche 12" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/produits/A7406629.jpg" alt="Produit pêche 13" loading="lazy"></div>
+          </div>
+          <button class="carousel-btn carousel-btn--prev" aria-label="Précédent">&#10094;</button>
+          <button class="carousel-btn carousel-btn--next" aria-label="Suivant">&#10095;</button>
+          <div class="carousel-dots"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       SECTION 4 — MA SOLUTION
+       ======================================== -->
+  <section id="solution" class="section section--solution">
+    <div class="container">
+      <span class="section-tag reveal">Mon approche</span>
+      <h2 class="section-title reveal">
+        Une stratégie de contenu adaptée<br>au marché de la pêche de compétition
+      </h2>
+      <p class="section-intro reveal">
+        Je mets en place une communication basée sur des contenus concrets, immersifs et adaptés aux réseaux sociaux.
+      </p>
+
+      <div class="solution-grid">
+        <div class="solution-card reveal">
+          <span class="solution-check">✔</span>
+          <h3>Photos produits professionnelles</h3>
+        </div>
+        <div class="solution-card reveal">
+          <span class="solution-check">✔</span>
+          <h3>Contenus en situation réelle</h3>
+          <p>Pêche & compétition</p>
+        </div>
+        <div class="solution-card reveal">
+          <span class="solution-check">✔</span>
+          <h3>Vidéos courtes Instagram</h3>
+        </div>
+        <div class="solution-card reveal">
+          <span class="solution-check">✔</span>
+          <h3>Valorisation des ambassadeurs</h3>
+        </div>
+        <div class="solution-card reveal">
+          <span class="solution-check">✔</span>
+          <h3>Storytelling produit</h3>
+        </div>
+        <div class="solution-card reveal">
+          <span class="solution-check">✔</span>
+          <h3>Stratégie de contenu</h3>
+        </div>
+      </div>
+
+      <p class="solution-objective reveal">
+        <strong>Objectif :</strong> améliorer l'image de marque, développer la visibilité et engager une audience qualifiée.
+      </p>
+
+      <!-- Carrousel Focus Produit -->
+      <div class="carousel-wrapper reveal">
+        <div class="carousel" id="carouselFocus">
+          <div class="carousel-track">
+            <div class="carousel-slide"><img src="assets/focus_produit/A7405782.jpg" alt="Focus produit 1" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/focus_produit/A7405800.jpg" alt="Focus produit 2" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/focus_produit/A7405801.jpg" alt="Focus produit 3" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/focus_produit/A7405817.jpg" alt="Focus produit 4" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/focus_produit/A7405829.jpg" alt="Focus produit 5" loading="lazy"></div>
+            <div class="carousel-slide"><img src="assets/focus_produit/A7405848.jpg" alt="Focus produit 6" loading="lazy"></div>
+          </div>
+          <button class="carousel-btn carousel-btn--prev" aria-label="Précédent">&#10094;</button>
+          <button class="carousel-btn carousel-btn--next" aria-label="Suivant">&#10095;</button>
+          <div class="carousel-dots"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       SECTION 5 — RÉSULTATS 2025
+       ======================================== -->
+  <section id="resultats" class="section section--resultats">
+    <div class="container">
+      <span class="section-tag reveal">Performances 2025</span>
+      <h2 class="section-title reveal">
+        Des performances concrètes au service<br>de la visibilité et de l'engagement
+      </h2>
+
+      <!-- Facebook -->
+      <div class="stats-platform reveal">
+        <h3 class="platform-title"><span class="platform-icon">f</span> Facebook</h3>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-value" data-target="15300000" data-suffix="" data-format="compact">0</span>
+            <span class="stat-label">de vues</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" data-target="124" data-suffix=" %">0</span>
+            <span class="stat-label">d'interactions</span>
+            <span class="stat-detail">206,8 K</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" data-target="206" data-suffix=" %">0</span>
+            <span class="stat-label">de clics contenus</span>
+            <span class="stat-detail">8,5 K</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" data-target="287000" data-suffix="" data-format="compact">0</span>
+            <span class="stat-label">visites</span>
+            <span class="stat-detail">+59 %</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" data-target="9000" data-suffix="" data-prefix="+" data-format="compact">0</span>
+            <span class="stat-label">abonnés</span>
+            <span class="stat-detail">+48 %</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" data-target="350" data-suffix="">0</span>
+            <span class="stat-label">publications</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vidéo / Reels -->
+      <div class="stats-platform reveal">
+        <h3 class="platform-title"><span class="platform-icon">🎥</span> Contenu vidéo (Reels)</h3>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-value" data-target="10000000" data-suffix="" data-format="compact">0</span>
+            <span class="stat-label">de vues</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" data-target="1498" data-suffix="">0</span>
+            <span class="stat-label">jours de visionnage</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" data-target="116000" data-suffix="" data-format="compact">0</span>
+            <span class="stat-label">interactions</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Instagram -->
+      <div class="stats-platform reveal">
+        <h3 class="platform-title"><span class="platform-icon">📱</span> Instagram <small>(lancé en juillet 2025)</small></h3>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-value" data-target="62" data-suffix="">0</span>
+            <span class="stat-label">publications</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" data-target="899" data-suffix="" data-prefix="+">0</span>
+            <span class="stat-label">abonnés</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" data-target="44500" data-suffix="" data-format="compact">0</span>
+            <span class="stat-label">vues en 90 jours</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- YouTube -->
+      <div class="stats-platform reveal">
+        <h3 class="platform-title"><span class="platform-icon">▶️</span> YouTube</h3>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-value" data-target="37" data-suffix="">0</span>
+            <span class="stat-label">vidéos publiées</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" data-target="20200" data-suffix="" data-format="compact">0</span>
+            <span class="stat-label">vues</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" data-target="961" data-suffix=" h">0</span>
+            <span class="stat-label">de visionnage</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" data-target="518" data-suffix="" data-prefix="+">0</span>
+            <span class="stat-label">abonnés</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" data-target="270000" data-suffix="" data-format="compact">0</span>
+            <span class="stat-label">impressions</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="resultats-phrase reveal">
+        Une stratégie de contenu structurée permettant d'augmenter significativement la visibilité, l'engagement et l'attractivité de la marque sur l'ensemble des plateformes digitales.
+      </p>
+
+      <!-- Zone captures d'écran Méta — placeholders -->
+      <div class="meta-screenshots reveal">
+        <div class="meta-screenshot-placeholder">
+          <span>Capture Méta 1</span>
+          <!-- Remplacer par : <img src="assets/meta_screenshot_1.jpg" alt="Statistiques Méta"> -->
+        </div>
+        <div class="meta-screenshot-placeholder">
+          <span>Capture Méta 2</span>
+          <!-- Remplacer par : <img src="assets/meta_screenshot_2.jpg" alt="Statistiques Méta"> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       SECTION 6 — PORTFOLIO VISUEL
+       ======================================== -->
+  <section id="portfolio" class="section section--portfolio">
+    <div class="container">
+      <span class="section-tag reveal">Portfolio</span>
+      <h2 class="section-title reveal">Exemples de contenus</h2>
+      <p class="section-intro reveal">
+        Création de contenus pensés pour valoriser les produits et capter l'attention des pêcheurs.
+      </p>
+
+      <div class="gallery-grid">
+        <!-- Focus produit -->
+        <div class="gallery-item reveal" data-src="assets/focus_produit/A7405782.jpg">
+          <img src="assets/focus_produit/A7405782.jpg" alt="Focus produit — station RS2" loading="lazy">
+          <div class="gallery-overlay"><span>Voir</span></div>
+        </div>
+        <div class="gallery-item gallery-item--wide reveal" data-src="assets/focus_produit/A7405800.jpg">
+          <img src="assets/focus_produit/A7405800.jpg" alt="Focus produit — détail" loading="lazy">
+          <div class="gallery-overlay"><span>Voir</span></div>
+        </div>
+        <div class="gallery-item reveal" data-src="assets/focus_produit/A7405801.jpg">
+          <img src="assets/focus_produit/A7405801.jpg" alt="Focus produit — packshot" loading="lazy">
+          <div class="gallery-overlay"><span>Voir</span></div>
+        </div>
+        <div class="gallery-item reveal" data-src="assets/focus_produit/A7405817.jpg">
+          <img src="assets/focus_produit/A7405817.jpg" alt="Focus produit — moulinet" loading="lazy">
+          <div class="gallery-overlay"><span>Voir</span></div>
+        </div>
+        <div class="gallery-item gallery-item--tall reveal" data-src="assets/focus_produit/A7405829.jpg">
+          <img src="assets/focus_produit/A7405829.jpg" alt="Focus produit — canne R984" loading="lazy">
+          <div class="gallery-overlay"><span>Voir</span></div>
+        </div>
+        <div class="gallery-item reveal" data-src="assets/focus_produit/A7405848.jpg">
+          <img src="assets/focus_produit/A7405848.jpg" alt="Focus produit — accessoire" loading="lazy">
+          <div class="gallery-overlay"><span>Voir</span></div>
+        </div>
+        <!-- Produits action / terrain -->
+        <div class="gallery-item gallery-item--wide reveal" data-src="assets/produits/A7400055.jpg">
+          <img src="assets/produits/A7400055.jpg" alt="Photo terrain pêche" loading="lazy">
+          <div class="gallery-overlay"><span>Voir</span></div>
+        </div>
+        <div class="gallery-item reveal" data-src="assets/produits/A7402012.jpg">
+          <img src="assets/produits/A7402012.jpg" alt="Compétition pêche" loading="lazy">
+          <div class="gallery-overlay"><span>Voir</span></div>
+        </div>
+        <div class="gallery-item reveal" data-src="assets/produits/A7404571.jpg">
+          <img src="assets/produits/A7404571.jpg" alt="Contenu pêche" loading="lazy">
+          <div class="gallery-overlay"><span>Voir</span></div>
+        </div>
+        <div class="gallery-item reveal" data-src="assets/produits/A7406629.jpg">
+          <img src="assets/produits/A7406629.jpg" alt="Photo produit terrain" loading="lazy">
+          <div class="gallery-overlay"><span>Voir</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" aria-label="Fermer">&times;</button>
+    <button class="lightbox-prev" aria-label="Précédent">&#10094;</button>
+    <button class="lightbox-next" aria-label="Suivant">&#10095;</button>
+    <img class="lightbox-img" src="" alt="Image agrandie">
+  </div>
+
+  <!-- ========================================
+       SECTION 7 — OFFRE
+       ======================================== -->
+  <section id="offre" class="section section--offre">
+    <div class="container">
+      <span class="section-tag reveal">Services</span>
+      <h2 class="section-title reveal">Offres &amp; accompagnement</h2>
+      <p class="section-intro reveal">
+        Des solutions adaptées pour développer votre image, votre visibilité et votre impact sur les réseaux sociaux.
+      </p>
+
+      <div class="offre-grid">
+        <div class="offre-card reveal">
+          <div class="offre-icon">📸</div>
+          <h3>Création de contenu</h3>
+          <p>Photos et vidéos professionnelles adaptées aux codes du marché de la pêche. Contenus optimisés pour les réseaux sociaux.</p>
+        </div>
+        <div class="offre-card offre-card--highlight reveal">
+          <div class="offre-icon">🎯</div>
+          <h3>Stratégie digitale</h3>
+          <p>Accompagnement sur-mesure pour structurer votre présence en ligne, valoriser vos produits et engager votre communauté.</p>
+        </div>
+        <div class="offre-card reveal">
+          <div class="offre-icon">💡</div>
+          <h3>Conseil personnalisé</h3>
+          <p>Conseils stratégiques adaptés à vos objectifs, votre positionnement et votre budget pour maximiser votre retour sur investissement.</p>
+        </div>
+      </div>
+
+      <p class="offre-mention reveal">Tarifs indicatifs – ajustables selon vos besoins et projets.</p>
+
+      <!-- Capture d'écran offre — placeholder -->
+      <div class="offre-screenshot reveal">
+        <!-- Remplacer le placeholder par l'image : -->
+        <!-- <img src="assets/Capture d'écran 2026-03-24 à 17.11.09.png" alt="Formules et tarifs"> -->
+        <div class="offre-screenshot-placeholder">
+          <span>Capture offre / formules</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       SECTION 8 — BONUS / IDÉES
+       ======================================== -->
+  <section id="bonus" class="section section--bonus">
+    <div class="container">
+      <span class="section-tag reveal">Inspiration</span>
+      <h2 class="section-title reveal">Idées de contenus pour votre marque</h2>
+
+      <div class="ideas-grid reveal">
+        <div class="idea-chip">
+          <span class="idea-emoji">🎬</span>
+          Présentation produit en 30 secondes
+        </div>
+        <div class="idea-chip">
+          <span class="idea-emoji">🏆</span>
+          Immersion lors de vos compétitions
+        </div>
+        <div class="idea-chip">
+          <span class="idea-emoji">🤝</span>
+          Mise en avant ambassadeur
+        </div>
+        <div class="idea-chip">
+          <span class="idea-emoji">🎣</span>
+          Conseils techniques
+        </div>
+        <div class="idea-chip">
+          <span class="idea-emoji">✨</span>
+          Nouveautés matériel
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       SECTION 9 — CONTACT
+       ======================================== -->
+  <section id="contact" class="section section--contact">
+    <div class="container">
+      <span class="section-tag reveal">Contact</span>
+      <h2 class="section-title reveal">Discutons ensemble de la<br>visibilité de votre marque.</h2>
+
+      <div class="contact-content reveal">
+        <p class="contact-structure">DAZA FISHING MEDIA</p>
+        <p class="contact-name">Quentin Daza</p>
+        <p class="contact-role">Communication digitale — Pêche de compétition</p>
+
+        <div class="contact-links">
+          <a href="mailto:daza.quentin@orange.fr" class="btn btn-primary">
+            <span class="btn-icon">📩</span> daza.quentin@orange.fr
+          </a>
+          <a href="tel:+33680554899" class="btn btn-outline">
+            <span class="btn-icon">📱</span> 06.80.55.48.99
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       FOOTER
+       ======================================== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Quentin Daza — DAZA FISHING MEDIA. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
